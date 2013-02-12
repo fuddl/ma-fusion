@@ -1,0 +1,74 @@
+@import "compass/css3/images";
+
+div.nav {
+  clear:both;
+  text-align:center;
+  background-color:#222226;
+  border:1px solid #3C3C43;
+  padding:0 3px;
+  & p {
+    display:none;
+  }
+  & dl {
+    position:relative;
+    margin:.3em 0;
+  }
+  & dd {
+    margin-left:0;
+    & dt {
+      background-color:transparent;
+      font-weight:bold;
+      color:white;
+    }
+  }
+  & dt {
+    @include background(linear-gradient(left center , #0E1519 0, #3A5766 50%, #0E1519 100%));
+    color:white;
+    font-weight:normal;
+    border-bottom:1px solid #0B1114;
+    border-top:1px solid #617884;
+    & a {
+      color:white;
+    }
+  }
+  & ul {
+    padding:0;
+    margin:0;
+  }
+  & li {
+    display:inline;
+    line-height:1.5em;
+    &::before {
+      content:" \A0|\A0\A0";
+    }
+    &:first-child::before {
+      content:"";
+    }
+  }
+  & .next, 
+  & .prev { 
+    position:absolute;
+    width:30%;
+    top:0;
+    overflow:hidden;
+    background-image:none;
+    & + dd {
+      position:absolute;
+      width:30%;
+      top:2em;
+    }
+  }
+  & .next {
+    right:0;
+    & + dd {
+      right:5px;
+    }
+  }
+  & .prev {
+    left:0;
+    & + dd {
+      left:5px;
+    }
+  }
+}
+

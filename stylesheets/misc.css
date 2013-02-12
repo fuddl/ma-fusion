@@ -1,0 +1,95 @@
+ins {
+  text-decoration: underline; }
+
+del {
+  text-decoration: line-through; }
+
+td, th {
+  vertical-align: top;
+  padding: 0 2px; }
+
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+td.prefix {
+  text-align: right; }
+
+table.complex {
+  font-size: 11px; }
+  table.complex th {
+    font-size: 11px; }
+
+th {
+  background-color: rgba(255, 255, 255, 0.05);
+  text-align: left; }
+
+thead th {
+  background-color: #222226;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2e2e33), color-stop(100%, #222226));
+  background: -webkit-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: -moz-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: -o-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  margin: 5px 0 20px; }
+
+.overview {
+  text-align: center;
+  margin: 1em 0; }
+
+.visualClear {
+  clear: both; }
+
+.meta {
+  font-style: italic;
+  padding: 0 1em; }
+  .meta i, .meta em {
+    font-style: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFD942; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold; }
+
+h4 {
+  font-size: 1.3em; }
+
+h5 {
+  font-size: 1.2em; }
+
+h6 {
+  font-size: 1.2em; }
+
+.editsection {
+  visibility: hidden; }
+  h1:hover > .editsection, h2:hover > .editsection, h3:hover > .editsection, h4:hover > .editsection, h5:hover > .editsection, h6:hover > .editsection {
+    visibility: visible; }
+
+a:visited {
+  color: #0269B3; }
+
+.memory-beta a {
+  color: #D7ECFF; }
+
+.element-invisible, .WikiaArticle .picture-attribution, .toclimit-3 .toclevel-2 > ul, .toclimit-4 .toclevel-3 > ul, .toclimit-5 .toclevel-4 > ul, .toclimit-6 .toclevel-5 > ul, .toclimit-7 .toclevel-6 > ul {
+  display: none; }
+
+.alt_timeline {
+  border-style: solid;
+  border-color: #666666;
+  border-width: 1px 1px 1px 3px;
+  margin: 2em 0pt 1em;
+  padding: .5em 1em;
+  background-color: inherit; }
+  .alt_timeline .legend {
+    position: absolute;
+    background-color: #3D3D3D;
+    font-weight: normal;
+    color: #666666;
+    padding: 0 .5em;
+    font-size: .8em;
+    margin-top: -1.6em;
+    margin-top: -1.6em; }

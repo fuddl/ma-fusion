@@ -1,0 +1,92 @@
+$ratio = 49%;
+
+.Sidebar {
+  width: 202px;
+  float: right;
+  clear: right;
+  padding: 3px;
+  border: 1px solid #3C3C43;
+  background-color: #222226;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0 0 16px 16px; }
+  .Sidebar dl {
+    clear: both;
+    margin: 1em 0;
+    overflow: hidden; }
+  .Sidebar dt, .Sidebar dd {
+    width: 49%; }
+  .Sidebar dt {
+    float: left;
+    clear: both;
+    text-align: right; }
+  .Sidebar dd {
+    margin-left: 0;
+    float: right;
+    clear: right;
+    line-height: normal; }
+  .Sidebar sup {
+    font-size: 5px; }
+  .Sidebar .details.magnify {
+    display: none;
+    position: absolute; }
+  .Sidebar div.thumb {
+    border: none; }
+    .Sidebar div.thumb:hover .details.magnify {
+      display: block; }
+  .Sidebar figure.thumbinner, .Sidebar div.thumbinner {
+    padding: 0;
+    border: none;
+    padding: 0 !Important;
+    width: auto !Important; }
+  .Sidebar .thumbcaption {
+    display: none; }
+  .Sidebar img {
+    width: 200px;
+    height: auto; }
+  .Sidebar .magnify {
+    display: none; }
+  .Sidebar div.tright, .Sidebar figure.tright {
+    margin: 0;
+    float: none; }
+  .Sidebar .releases .thumbinner {
+    width: 100px !Important; }
+  .Sidebar .releases .tright {
+    float: left;
+    clear: left;
+    margin: 0; }
+  .Sidebar .releases img {
+    width: 100px; }
+  .Sidebar .releases dl {
+    clear: none;
+    overflow: visible; }
+  .Sidebar .releases dt {
+    display: none; }
+
+.division-header,
+.sidebar-title,
+.sub-sidebar {
+  clear: both; }
+
+.division-header {
+  width: 100px;
+  text-align: right;
+  position: relative; }
+  .division-header .expandability-indicator {
+    position: absolute;
+    right: -1.3em;
+    top: 0; }
+  .collapsed .division-header {
+    color: #66BBFF; }
+
+.sidebar-title {
+  background: #222226, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2e2e33), color-stop(100%, #222226));
+  background: #222226, -webkit-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: #222226, -moz-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: #222226, -o-linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  background: #222226, linear-gradient(center top, #2e2e33 0%, #222226 100%);
+  padding: 4px;
+  text-align: center; }
+
+.sidebar-division.meta {
+  padding: 0; }

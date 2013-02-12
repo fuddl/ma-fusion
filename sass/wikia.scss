@@ -1,0 +1,9 @@
+$standard-border-color: #57575B;
+$standard-border:1px solid $standard-border-color;
+$content-background-color:#3D3D3D;
+$grid:10px;
+$sidebar-width:$grid*16;
+
+figure.thumb, div.thumb {
+  border: $standard-border;
+}

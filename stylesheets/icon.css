@@ -1,0 +1,40 @@
+.icon-portal-sprite, .icon-portal-culure, .icon-portal-individuals, .icon-portal-sience, .icon-portal-starships, .icon-portal-startrek, .icon-portal-stellar, .icon-portal-wiki {
+  display: inline-block; }
+
+.icon-portal-sprite, .icon-portal-culure, .icon-portal-individuals, .icon-portal-sience, .icon-portal-starships, .icon-portal-startrek, .icon-portal-stellar, .icon-portal-wiki {
+  background: url('/images/icon-portal-s21e265e7d2.png') no-repeat; }
+
+.icon-portal-culure {
+  background-position: 0 -189px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-individuals {
+  background-position: 0 -125px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-sience {
+  background-position: 0 -93px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-starships {
+  background-position: 0 -157px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-startrek {
+  background-position: 0 -29px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-stellar {
+  background-position: 0 -61px;
+  height: 32px;
+  width: 40px; }
+
+.icon-portal-wiki {
+  background-position: 0 0;
+  height: 29px;
+  width: 40px; }

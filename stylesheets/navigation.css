@@ -1,0 +1,57 @@
+div.nav {
+  clear: both;
+  text-align: center;
+  background-color: #222226;
+  border: 1px solid #3C3C43;
+  padding: 0 3px; }
+  div.nav p {
+    display: none; }
+  div.nav dl {
+    position: relative;
+    margin: .3em 0; }
+  div.nav dd {
+    margin-left: 0; }
+    div.nav dd dt {
+      background-color: transparent;
+      font-weight: bold;
+      color: white; }
+  div.nav dt {
+    background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #0e1519), color-stop(50%, #3a5766), color-stop(100%, #0e1519));
+    background: -webkit-linear-gradient(left center, #0e1519 0%, #3a5766 50%, #0e1519 100%);
+    background: -moz-linear-gradient(left center, #0e1519 0%, #3a5766 50%, #0e1519 100%);
+    background: -o-linear-gradient(left center, #0e1519 0%, #3a5766 50%, #0e1519 100%);
+    background: linear-gradient(left center, #0e1519 0%, #3a5766 50%, #0e1519 100%);
+    color: white;
+    font-weight: normal;
+    border-bottom: 1px solid #0B1114;
+    border-top: 1px solid #617884; }
+    div.nav dt a {
+      color: white; }
+  div.nav ul {
+    padding: 0;
+    margin: 0; }
+  div.nav li {
+    display: inline;
+    line-height: 1.5em; }
+    div.nav li::before {
+      content: " \A0|\A0\A0"; }
+    div.nav li:first-child::before {
+      content: ""; }
+  div.nav .next, div.nav .prev {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    overflow: hidden;
+    background-image: none; }
+    div.nav .next + dd, div.nav .prev + dd {
+      position: absolute;
+      width: 30%;
+      top: 2em; }
+  div.nav .next {
+    right: 0; }
+    div.nav .next + dd {
+      right: 5px; }
+  div.nav .prev {
+    left: 0; }
+    div.nav .prev + dd {
+      left: 5px; }

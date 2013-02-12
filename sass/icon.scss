@@ -1,0 +1,8 @@
+.icon-portal-sprite {
+  display:inline-block;
+}
+
+$icon-portal-sprite-dimensions:true;
+@import "icon-portal/*.png";
+@include all-icon-portal-sprites;
+

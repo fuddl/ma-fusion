@@ -1,0 +1,63 @@
+@import "compass/css3/images";
+
+q {
+  font-family:inherit; 
+  font-style:italic;
+  quotes: "\201E" "\201D" "\2019" "\2018" !Important;
+  &:before {
+    content:open-quote;
+  }
+  &:after{
+    content:close-quote;
+  }
+}
+
+blockquote {
+  margin:0;
+  background-color: #3C3C43;
+  padding: 4px 10px;
+  
+  //oasis only
+  .WikiaArticle & {
+    margin: 0 !Important;
+  }
+  img {
+    max-width: 100%; 
+    height: auto;
+  }
+}
+
+.dialogue {
+  padding:0;
+  background-color:transparent;
+  cite {
+    font-weight:bold;
+    font-style:normal;
+  }
+  q {
+    font-style:normal;
+  }
+  strong {
+    font-weight:normal;
+    text-transform: uppercase;
+  }
+  .event {
+    font-style:italic;
+  }
+}
+ 
+.log {
+  @include background(linear-gradient(center top , #333338 60%, #222226 100%));
+  border:1px solid #3C3C43;
+  line-height:135%;
+  dl, dd {
+    margin:0;
+  }
+  dt {
+    font-weight:normal;
+  }
+  dd {
+    border-top:1px solid #D5D4D4;
+    padding-top:5px;
+  }
+}

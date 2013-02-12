@@ -1,0 +1,123 @@
+body {
+  color: #D5D4D4;
+  font-size: 10px;
+  line-height: 21px;
+  background-color: #222226; }
+
+div#content {
+  color: #D5D4D4;
+  border: 1px solid #57575b;
+  margin: 30px 10px 10px 170px;
+  background-color: #2e2e33; }
+
+#toc,
+#catlinks {
+  background-color: #2e2e33;
+  border: 1px solid #57575b;
+  padding: 10px;
+  margin: 10px 0; }
+
+div#footer, #preferences,
+.prefsection table,
+.prefsection legend,
+ul#filetoc,
+div.noarticletext, pre, table.wikitable > tbody, table.wikitable > tbody > tr > th, table.mw_metadata, table.wikitable, table.mw_metadata > tbody > tr > td, table.mw_metadata > tbody > tr > th, table.wikitable > tbody > tr > td {
+  color: #D5D4D4;
+  background-color: transparent; }
+
+div#column-one {
+  width: 160px; }
+
+.portlet {
+  width: auto;
+  margin: 10px 0 10px 10px; }
+  .portlet > .pBody {
+    border: 1px solid #57575b;
+    background-color: #2e2e33; }
+  .portlet#p-personal li a {
+    color: #6BF; }
+  .portlet#p-cactions {
+    left: 170px;
+    padding: 0; }
+    .portlet#p-cactions > .pBody {
+      border: none;
+      background-color: transparent; }
+      .portlet#p-cactions > .pBody > ul {
+        margin: 0; }
+        .portlet#p-cactions > .pBody > ul > li > a {
+          color: #6BF;
+          background-color: #2e2e33; }
+        .portlet#p-cactions > .pBody > ul > li.selected {
+          border-color: #949499; }
+          .portlet#p-cactions > .pBody > ul > li.selected > a {
+            color: white; }
+
+figure.thumb, div.thumb {
+  border: 1px solid #57575b !important; }
+figure.thumbinner, div.thumbinner {
+  border: none;
+  background-color: #2e2e33; }
+  figure.thumbinner .thumbimage, div.thumbinner .thumbimage {
+    border: 1px solid #57575b; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #D5D4D4;
+  margin: .5em 0 .2em; }
+
+h1 {
+  font-size: 26px;
+  margin: 0 10px 0 0;
+  line-height: 27px; }
+
+#p-cactions li {
+  border: 1px solid #57575b;
+  border-bottom: none; }
+
+h2 {
+  border-bottom: 1px solid #57575b;
+  font-size: 18px;
+  margin-top: 20px; }
+
+h3 {
+  font-size: 16px; }
+
+h4 {
+  font-size: 14px; }
+
+h5 {
+  font-size: 12px; }
+
+h6 {
+  font-size: 11px; }
+
+a {
+  color: #6BF; }
+  a:visited {
+    color: #0269B3; }
+
+code {
+  background-color: #3a3a40;
+  color: #D5D4D4; }
+
+pre {
+  color: #D5D4D4; }
+
+table.wikitable > tbody > tr > th {
+  color: #D5D4D4; }
+table.wikitable > tbody > tr > th, table.wikitable > tbody > tr > td {
+  border: none;
+  color: #D5D4D4; }
+
+table.diff,
+td.diff-otitle,
+td.diff-ntitle {
+  background-color: #2e2e33; }
+
+td.diff-deletedline {
+  background: rgba(255, 0, 0, 0.1); }
+
+td.diff-addedline {
+  background: rgba(0, 255, 0, 0.1); }
+
+td.diff-context {
+  background: rgba(0, 0, 0, 0.1); }

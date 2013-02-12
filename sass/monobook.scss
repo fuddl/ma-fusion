@@ -1,0 +1,189 @@
+$standard-border-color: #57575b;
+$standard-border:1px solid $standard-border-color;
+$content-background-color: #2E2E33;
+$grid:10px;
+$sidebar-width:$grid*16;
+
+body {
+  color:#D5D4D4;
+  font-size: 10px;
+  line-height: 21px;
+  background-color:darken($content-background-color, 5%);
+}
+
+div#content {
+  color:#D5D4D4;
+  border: $standard-border;
+  margin:($grid*3) $grid $grid ($sidebar-width+$grid);
+  background-color: $content-background-color;
+}
+
+#toc,
+#catlinks {
+  background-color: $content-background-color;
+  border:$standard-border;
+  padding: $grid;
+  margin: $grid 0;
+}
+
+%white-stuff {
+  color:#D5D4D4;
+  background-color:transparent;
+}
+
+div#footer {
+  @extend %white-stuff;
+}
+
+#preferences,
+.prefsection table,
+.prefsection legend,
+ul#filetoc,
+div.noarticletext {
+   @extend %white-stuff;
+}
+
+div#column-one {
+  width:$sidebar-width;
+}
+
+.portlet {
+  width:auto;
+  margin:$grid 0 $grid $grid;
+  & > .pBody {
+    border:$standard-border;
+    background-color:$content-background-color;
+  }
+  &#p-personal li a {
+    color:#6BF;
+  }
+  &#p-cactions {
+    left: $sidebar-width + $grid;
+    padding:0;
+    & > .pBody {
+      border:none;
+      background-color:transparent;
+      & > ul {
+        margin:0;
+        & > li > a {
+          color:#6BF;
+          background-color:$content-background-color;
+        }
+        & > li.selected {
+          border-color:lighten($standard-border-color, 24%);
+          & > a{
+            color:white;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+figure, div {
+  &.thumb {
+    border:$standard-border !Important;
+  }
+  &.thumbinner {
+    border:none;
+    background-color: $content-background-color;
+    & .thumbimage {
+      border:$standard-border;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#D5D4D4;
+  margin: .5em 0 .2em;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0 $grid 0 0;
+  line-height: 27px;
+}
+
+#p-cactions li {
+  border:$standard-border;
+  border-bottom:none;
+}
+
+h2 {
+  border-bottom: $standard-border;
+  font-size: 18px;
+  margin-top:$grid*2;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size:14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+a {
+  color:#6BF;
+  &:visited {
+    color:#0269B3;
+  }
+}
+
+code {
+  background-color: lighten($content-background-color, 5%);
+  color: #D5D4D4;
+}
+
+pre {
+  color:#D5D4D4;
+  @extend %white-stuff;
+}
+
+table.wikitable > tbody {
+  @extend %white-stuff;
+  & > tr {
+    & > th {
+      @extend %white-stuff;
+      color:#D5D4D4;
+    }
+    & > th, & > td {
+      border:none;
+      color:#D5D4D4;
+    }
+  }
+}
+
+table.mw_metadata, table.wikitable {
+  @extend %white-stuff;
+  & > tbody > tr > td, & > tbody > tr > th {
+    @extend %white-stuff;
+  }
+}
+
+table.diff,
+td.diff-otitle,
+td.diff-ntitle {
+  background-color: $content-background-color;
+}
+
+td.diff-deletedline {
+  background: rgba(255,0,0,.1);
+}
+
+td.diff-addedline {
+  background: rgba(0,255,0,.1);
+}
+
+td.diff-context {
+  background: rgba(0,0,0,.1);
+}

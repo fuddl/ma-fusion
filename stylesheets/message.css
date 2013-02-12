@@ -1,0 +1,56 @@
+.warning, .copyvio, .protected, .stub, .featured {
+  border-width: 1px;
+  border-style: solid;
+  margin: 2em 0 1em;
+  text-align: justify;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: 1em;
+  padding-left: 77px; }
+
+.warning {
+  background: #401f22 url(http://images1.wikia.nocookie.net/memoryalpha/de/images/thumb/e/ed/MA_Icon_Warnung.svg/50px-MA_Icon_Warnung.svg.png) no-repeat scroll 1em 1em;
+  border-color: #660000;
+  color: #FF0000 !important;
+  font-weight: bold;
+  min-height: 56px;
+  font-size: normal; }
+
+.copyvio {
+  background: #401f22 url(http://images4.wikia.nocookie.net/memoryalpha/de/images/thumb/3/30/MA_Icon_Copyright-Verletzung_.svg/50px-MA_Icon_Copyright-Verletzung_.svg.png) no-repeat scroll 1em 1em;
+  border-color: #660000;
+  color: #FF0000 !important;
+  font-weight: bold;
+  margin: 2em 0 1em;
+  min-height: 63px; }
+
+.protected {
+  background: #333333 url(http://images2.wikia.nocookie.net/memoryalpha/de/images/thumb/c/cb/MA_Icon_Protected.svg/50px-MA_Icon_Protected.svg.png) no-repeat scroll 1em 1em;
+  border-color: #AAAAAA;
+  font-weight: bold;
+  margin: 2em 0 1em;
+  min-height: 56px; }
+
+.stub {
+  background: #333333 url(http://images1.wikia.nocookie.net/memoryalpha/de/images/thumb/f/fd/MA_Icon_Stub.svg/50px-MA_Icon_Stub.svg.png) no-repeat scroll 1em 1em;
+  border-color: orange;
+  margin: 2em 0 1em;
+  vertical-align: middle;
+  min-height: 64px; }
+
+.featured {
+  border-color: gold; }
+
+.meta-notice {
+  background: url("http://images4.wikia.nocookie.net/memoryalpha/de/images/a/a6/Icon-Realworld-POV.png") no-repeat scroll 5px 4px #222226;
+  border: 1px solid #3C3C43;
+  clear: both;
+  font-size: 80%;
+  line-height: 130%;
+  margin: 1em auto 0.5em;
+  padding: 0.4em 0.4em 0.4em 56px;
+  text-align: center;
+  width: 147px;
+  float: right;
+  margin: 0 0 16px 16px;
+  min-height: 40px; }
