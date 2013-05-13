@@ -1,4 +1,4 @@
-.warning, .copyvio, .protected, .stub, .featured {
+.warning, .copyvio, .protected, div.stub, .featured {
   border-width: 1px;
   border-style: solid;
   margin: 2em 0 1em;
@@ -31,7 +31,7 @@
   margin: 2em 0 1em;
   min-height: 56px; }
 
-.stub {
+div.stub {
   background: #333333 url(http://images1.wikia.nocookie.net/memoryalpha/de/images/thumb/f/fd/MA_Icon_Stub.svg/50px-MA_Icon_Stub.svg.png) no-repeat scroll 1em 1em;
   border-color: orange;
   margin: 2em 0 1em;

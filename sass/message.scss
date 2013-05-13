@@ -20,7 +20,7 @@
   min-height:56px;
   font-size:normal; // oasis ans monobook increase the size
 }
- 
+
 .copyvio {
   @extend %message;
   background: #401F22 url(http://images4.wikia.nocookie.net/memoryalpha/de/images/thumb/3/30/MA_Icon_Copyright-Verletzung_.svg/50px-MA_Icon_Copyright-Verletzung_.svg.png) no-repeat scroll 1em 1em;
@@ -30,7 +30,7 @@
   margin: 2em 0 1em;
   min-height:63px;
 }
- 
+
 .protected {
   @extend %message;
   background: #333333 url(http://images2.wikia.nocookie.net/memoryalpha/de/images/thumb/c/cb/MA_Icon_Protected.svg/50px-MA_Icon_Protected.svg.png) no-repeat scroll 1em 1em;
@@ -40,7 +40,7 @@
   min-height:56px;
 }
 
-.stub {
+div.stub {
   @extend %message;
   background: #333333 url(http://images1.wikia.nocookie.net/memoryalpha/de/images/thumb/f/fd/MA_Icon_Stub.svg/50px-MA_Icon_Stub.svg.png) no-repeat scroll 1em 1em;
   border-color: orange;
@@ -53,7 +53,7 @@
   @extend %message;
   border-color:gold;
 }
- 
+
 .meta-notice {
   background:url("http://images4.wikia.nocookie.net/memoryalpha/de/images/a/a6/Icon-Realworld-POV.png") no-repeat scroll 5px 4px #222226;
   border:1px solid #3C3C43;
