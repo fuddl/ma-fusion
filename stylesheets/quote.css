@@ -1,3 +1,4 @@
+@charset "CP850";
 q {
   font-family: inherit;
   font-style: italic;
@@ -6,6 +7,10 @@ q {
     content: open-quote; }
   q:after {
     content: close-quote; }
+
+q:lang(tlh) {
+  quotes: "「" "」" '『' '』' !Important;
+  font-family: serif; }
 
 blockquote {
   margin: 0;

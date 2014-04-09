@@ -1,28 +1,34 @@
 @import "compass/css3/images";
 
 q {
-  font-family:inherit; 
+  font-family:inherit;
   font-style:italic;
   quotes: "\201E" "\201D" "\2019" "\2018" !Important;
   &:before {
-    content:open-quote;
+    content: open-quote;
   }
   &:after{
-    content:close-quote;
+    content: close-quote;
   }
+}
+
+// klingon quotation marks
+q:lang(tlh) {
+  quotes: "「" "」" '『' '』' !Important;
+  font-family: serif;
 }
 
 blockquote {
   margin:0;
   background-color: #3C3C43;
   padding: 4px 10px;
-  
+
   //oasis only
   .WikiaArticle & {
     margin: 0 !Important;
   }
   img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
   }
 }
@@ -45,7 +51,7 @@ blockquote {
     font-style:italic;
   }
 }
- 
+
 .log {
   @include background(linear-gradient(center top , #333338 60%, #222226 100%));
   border:1px solid #3C3C43;

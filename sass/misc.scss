@@ -1,5 +1,20 @@
 @import "compass/css3/images";
 
+@font-face {
+  font-family: emoji;
+  src: inline-font-files('emoji.svg', svg, 'emoji.woff', woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: emoji, Helvetica,Arial, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+.EditPageEditor textarea, textarea, code, pre {
+  font-family: emoji, monospace, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
 ins {
   text-decoration: underline;
 }
