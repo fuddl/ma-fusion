@@ -54,3 +54,33 @@ div.stub {
   float: right;
   margin: 0 0 16px 16px;
   min-height: 40px; }
+
+.pov-multiple {
+  background-image: url(http://img3.wikia.nocookie.net/__cb20140415094854/memoryalpha/de/images/thumb/a/ac/Article-type-pov-multiple.png/640px-Article-type-pov-multiple.png); }
+
+.pov-new-timeline {
+  background-image: url(http://img2.wikia.nocookie.net/__cb20140416095646/memoryalpha/de/images/thumb/5/5c/Article-type-pov-new-timeline.png/640px-Article-type-pov-new-timeline.png?action=purge); }
+
+.pov-alt-timeline {
+  background-image: url(http://img2.wikia.nocookie.net/__cb20140505095747/memoryalpha/de/images/thumb/e/eb/Article-type-pov-alt-timeline.png/640px-Article-type-pov-alt-timeline.png); }
+
+.pov-production {
+  background-image: url(http://img2.wikia.nocookie.net/__cb20140416165155/memoryalpha/de/images/thumb/7/74/Article-type-pov-production.png/640px-Article-type-pov-production.png?1); }
+
+.pov-realworld {
+  background-image: url(http://img4.wikia.nocookie.net/__cb20140416165931/memoryalpha/de/images/thumb/4/40/Article-type-pov-realworld.png/640px-Article-type-pov-realworld.png); }
+
+.pov-mirror-universe {
+  background-image: url(http://img1.wikia.nocookie.net/__cb20140417100241/memoryalpha/de/images/thumb/f/f1/Article-type-pov-mirror-universe.png/640px-Article-type-pov-mirror-universe.png); }
+
+.article-type {
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: black;
+  padding: .5em 1em;
+  text-align: right;
+  margin-bottom: 1em; }
+
+.article-type-headline {
+  font-variant: small-caps; }

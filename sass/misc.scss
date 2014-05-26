@@ -1,18 +1,12 @@
 @import "compass/css3/images";
-
-@font-face {
-  font-family: emoji;
-  src: inline-font-files('emoji.svg', svg, 'emoji.woff', woff);
-  font-weight: normal;
-  font-style: normal;
-}
+@import "compass/css3/user-interface";
 
 body {
-  font-family: emoji, Helvetica,Arial, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
+  font-family: Helvetica, Arial, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 .EditPageEditor textarea, textarea, code, pre {
-  font-family: emoji, monospace, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
+  font-family: monospace, 'Apple Color Emoji', 'Android Emoji', 'Segoe UI Symbol', sans-serif;
 }
 
 ins {
@@ -75,11 +69,11 @@ thead th{
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color:#FFD942;
+  color: #FFD942;
 }
 
 h1,h2,h3,h4,h5 {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 h4 {
@@ -115,7 +109,7 @@ a:visited {
 }
 
 .element-invisible {
-  display:none;
+  display:none !Important;
 }
 
 .alt_timeline {
@@ -137,15 +131,38 @@ a:visited {
   }
 }
 
-// oasis only
-.WikiaArticle .picture-attribution {
-  @extend .element-invisible;
+figcaption {
+  > .attribution {
+    @extend .element-invisible; // oasis only
+  }
+  > .caption {
+    margin-bottom: 0;
+  }
 }
 
-$i:2;
-@for $i from 2 through 6 {
+@for $i from 1 through 6 {
   $j:$i+1;
-  .toclimit-#{$j} .toclevel-#{$i} > ul {
+  .toclimit-#{$j} .toclevel-#{$i} > ol {
     @extend .element-invisible;
+  }
+}
+
+.details {
+  > .summary {
+    font-weight: bold;
+    cursor: pointer;
+    @include user-select(none);
+    &:before {
+      content: '▸';
+      .open > & {
+        content: '▾';
+      }
+    }
+    ~ div {
+      display: none;
+    }
+  }
+  &.open > .summary ~ div {
+    display: block;
   }
 }

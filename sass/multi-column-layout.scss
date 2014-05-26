@@ -1,0 +1,78 @@
+.multi-column {
+  margin: 0 -10px;
+  > .col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.two-columns > .col {
+  width: 50%;
+}
+
+.three-columns > .col {
+  width: 33.333%;
+}
+
+.four-columns > .col {
+  width: 25%;
+}
+
+.five-columns > .col {
+  width: 20%;
+}
+
+.six-columns > .col {
+  width: 16.666%;
+}
+
+.seven-columns > .col {
+  width: 14.285%;
+}
+
+.col {
+  table {
+    width: 100%;
+  }
+  dd {
+    margin-left: 0;
+  }
+  ul, ol {
+    margin-left: 1.2em;
+  }
+  .article-thumb {
+    width: auto !Important;
+    margin: 1em 0 !Important;
+    float: none !Important;
+    img.thumbimage {
+      width: 100%;
+      display: block;
+      margin: auto;
+      height: auto !Important;
+    }
+  }
+}
+
+.two-columns .col .article-thumb {
+  width: 50%;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.col .thumbinner {
+  width: auto !Important;
+}
+
+@media all and (max-width: 800px) {
+  .multi-column {
+    margin: 0;
+    > .col {
+      float: none;
+      width: auto;
+    }
+  }
+}

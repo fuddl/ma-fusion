@@ -95,7 +95,6 @@ figure, div {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#D5D4D4;
   margin: .5em 0 .2em;
 }
 
@@ -186,4 +185,8 @@ td.diff-addedline {
 
 td.diff-context {
   background: rgba(0,0,0,.1);
+}
+
+textarea {
+  font-size: 13px;
 }
